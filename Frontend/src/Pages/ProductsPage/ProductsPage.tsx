@@ -48,7 +48,7 @@ const ProductsPage: React.FC = ({ data }) => {
             </Helmet>
 
             <div className={cls.container}>
-                <h1 className={cls.title}>Наши товары</h1>
+                <h1 className={cls.title}>Наши товары на SPA+SSR приложении</h1>
                 <div className={cls.productsGrid}>
                     {products.map((product) => (
                         <Link key={product.id} to={`/product/${product.id}`} className={cls.link}>
