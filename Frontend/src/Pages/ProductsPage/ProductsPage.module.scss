@@ -1,0 +1,29 @@
+.container {
+    padding: 40px;
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333;
+}
+
+.productsGrid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productsGrid > div {
+    flex: 1 1 30%;
+    max-width: 30%;
+    height: 400px;
+  }
+  
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
